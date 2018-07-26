@@ -510,7 +510,7 @@ qx.Class.define("dialog.Form",
               }
             }
             var model = qx.data.marshal.Json.createModel( fieldData.options );
-            var controller =
+            var listController =
               new qx.data.controller.List( model, formElement, "label");
             if (fieldData.delegate)
             {
